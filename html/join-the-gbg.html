@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../../dist/css/style.css">
+    <script src="../../javascript/jquery.js" type="text/javascript"></script>
+    <script src="../../javascript/animation.js" type="text/javascript"></script>
+    <script src="../../javascript/validation.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../css/join.css">
+</head>
+<body>
+
+<form name="myform" onsubmit="return validateform()">
+    <ul>
+        <li class="title">who are you?</li>
+        <li class="fields">
+
+            <label>*First Name</label><br />
+            <input type="text" id="first_name" class="reg"> <br />
+            <label>Middle Name</label><br />
+            <input type="text" id="middle_name"> <br />
+            <label>*Last Name</label><br />
+            <input type="text" id="last_name" class="reg"> <br />
+            <label>*email</label><br />
+            <input type="text" id="email" class="reg"> <br />
+            <label>Phone</label><br />
+            <input type="text" id="phone"> <br />
+        </li>
+        <li class="title">Where are You?</li>
+        <li class="fields">
+
+            <label>*City</label><br />
+            <input type="text" id="city" class="reg"> <br />
+            <label>*State</label><br />
+            <input type="text" id="state" class="reg"> <br />
+            <label>Country</label><br />
+            <input type="text" id="country" class="reg"> <br />
+
+        </li>
+        <li class="title">what do you do?</li>
+        <li class="fields">
+
+            <label>*Occupation</label><br />
+            <input type="text" id="occupation" class="reg"> <br />
+            <label>Hobbies</label><br />
+            <input type="text" id="hobbies" class="reg"> <br />
+            <label>Volunteer Work</label><br />
+            <input type="text" id="volunteer" class="reg"> <br />
+
+        </li>
+        <li class="title">What games do you play?</li>
+        <li class="fields">
+            <label> length of games</label>
+            <select class="reg">
+                <option value="short">Short (1 hour or less)</option>
+                <option value="medium">Medium(1-2 hours)</option>
+                <option value="long">Long(2-3 hours)</option>
+                <option value="risk">Risk-Esque(just play the game to find out)</option>
+            </select>
+  <br /><br />
+            <label> style of games</label> <br />
+            <input type="checkbox" name="style" value="competitive"> competitive<br>
+            <input type="checkbox" name="style" value="team" > team<br>
+            <input type="checkbox" name="style" value="co-op" > co-op<br>
+
+
+            <br />
+            <label> types of games</label> <br />
+            <input type="checkbox" name="style" value="competitive"> Bluff
+            <input type="checkbox" name="style" value="team" > Deckbuilder
+            <input type="checkbox" name="style" value="co-op" > Worker Placement<br>
+            <input type="checkbox" name="style" value="competitive"> Storytelling/Roleplaying
+            <input type="checkbox" name="style" value="team" > quest
+            <input type="checkbox" name="style" value="co-op" >Dice <br>
+            <input type="checkbox" name="style" value="competitive"> zombie
+            <input type="checkbox" name="style" value="team" > cthulu/dark ones
+            <input type="checkbox" name="style" value="co-op" > horror<br><br />
+
+
+            <label>Other Prerequisites</label><br />
+            <input type="text" id="prerequisite"> <br />
+
+
+
+
+
+        </li>
+
+        </li>
+
+    </ul>
+    <input type="submit" value="Submit">
+
+
+
+</form>
+<script></script>
+</body>
+</html>
